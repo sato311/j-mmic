@@ -118,7 +118,7 @@ public String format0(int n)
         Log.i(LOG_TAG, "mFileName="+mFileName);
 
     	TextView myText1=(TextView)findViewById(R.id.TextView1);
-    	myText1.setText(mFileName); //
+    	myText1.setText(mFileName); //_
         
         try {
             mRecorder.prepare(); 
